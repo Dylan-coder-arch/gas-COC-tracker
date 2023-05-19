@@ -17,5 +17,10 @@ namespace gas_COC_tracker
         {
             InitializeComponent();
         }
+
+        private void kbtnNextPage2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 1;
+        }
     }
 }
